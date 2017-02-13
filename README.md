@@ -37,7 +37,7 @@ dnsmasq in a docker container, configurable via a [simple web UI](https://github
 		--log-opt "max-size=100m" \
 		-e "USER=foo" \
 		-e "PASS=bar" \
-		jpillora/dnsmasq
+		xavren/dnsmasq
 	```
 
 1. Visit `http://<docker-host>:5380`, authenticate with `foo/bar` and you should see
